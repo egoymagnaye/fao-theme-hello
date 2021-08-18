@@ -1,0 +1,22 @@
+body{
+	background: transparent;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #fff;
+}
+
+#login h1 a, .login h1 a {
+	background-image: url(/wp-content/uploads/2018/10/FUSELIER-FOOD-Logo.svg);
+	height:65px;
+	width:320px;
+	background-size: 463px 429px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-bottom: 40px;
+}
+
+.login form{box-shadow: 0 1px 3px rgba(0,0,0,.6);}
+
+.login #backtoblog a, .login #nav a{color: #000 !important;}
+
