@@ -38,3 +38,4 @@ require EM_THEME_DIR . '/inc/class/class-utilities.php';
 require EM_THEME_DIR . '/inc/class/class-shortcodes.php';
 
 
+//  random comment
