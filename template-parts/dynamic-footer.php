@@ -15,11 +15,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="em-footer--row">
 			<div class="em-footer--icons">
 				<h5>Connect with Flor & Order</h5>
-				<p>Follow me on
-					<i class="fab fa-facebook-f"></i>
-					<i class="fab fa-instagram"></i>
-					<i class="fab fa-linkedin-in"></i>
-				</p>
+				<ul class="em-social-media--icons">
+					<li><p>Follow me on</p></li>
+					<li><a href="#!"><span><img src="/wp-content/themes/em-theme-hello/assets/img/icons/instagram.svg" alt=""></span></a></li>
+					<li><a href="#!"><span><img src="/wp-content/themes/em-theme-hello/assets/img/icons/twitter.svg" alt=""></span></a></li>
+					<li><a href="#!"><span><img src="/wp-content/themes/em-theme-hello/assets/img/icons/twitter.svg" alt=""></span></a></li>
+    		</ul>
 			</div>
 			<div class="em-footer--signup">
 				<h5>What weekly goal smashing inspiration?</h5>
