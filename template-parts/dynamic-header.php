@@ -26,18 +26,25 @@ $header_nav_menu = wp_nav_menu( [
             <div class="menu-primary-menu-container">
               <ul class="em-page-nav--list">
                   <li><a href="#start">ABOUT</a></li>
-                  <li><a href="#step-1">WORK WITH ME</a></li>
+                  <li><a href="#step-1"> <div class="em-page-nav--dropdown">WORK WITH ME</a>
+                        <ul class="dropdown-content">
+                            <li>Menu</li>
+                            <li>Menu2</li>
+                            <li>Menu3</li>
+                        </ul>
+                    </div>
+                  </li>
                   <li><a href="#step-2">SHOP + FREE RESOURCES</a></li>
                   <li><a href="#step-3">BLOG</a></li>
                   <li><a href="#step-4">CONTACT</a></li>
               </ul>
             </div> <!-- menu-primary-menu-container -->
-            <!-- <div class="em-header--cart">
+            <div class="em-header--cart">
               <ul>
-                  <li><a href="#!"><img src="/wp-content/themes/em-theme-hello/assets/img/icons/user.svg" alt=""><span>Cart</span></a></li>
-                  <li><a href="#!"><img src="/wp-content/themes/em-theme-hello/assets/img/icons/user.svg" alt=""><span>Search</span></a></li>
+                  <li><a href="#!"><img src="/wp-content/uploads/2021/08/Icon-feather-shopping-cart.png" alt=""><span></span></a></li>
+                  <li><a href="#!"><img src="/wp-content/uploads/2021/08/Icon-feather-search.png" alt=""><span></span></a></li>
               </ul>
-          </div> -->
+          </div>
         </div>
         
         <div class="em-header--nav-mobile-btn">
