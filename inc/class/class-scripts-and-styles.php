@@ -35,9 +35,9 @@ class EM_Theme_Scripts_And_Styles {
 		// Theme JS
 		//wp_enqueue_script('em-theme-js', EM_THEME_URI .'/assets/js/script.js', array('jquery'), '1.0', true);
 
-		wp_enqueue_script( 'em-sample-script', EM_THEME_URI .'/assets/js/sample.js', [], false, true);
+		wp_enqueue_script( 'em-globals-script', EM_THEME_URI .'/assets/js/em-globals.js', [], false, true);
 
-		wp_enqueue_script( 'em-sample-script' );
+		wp_enqueue_script( 'em-globals-script' );
 
 	}
 
